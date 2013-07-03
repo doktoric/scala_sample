@@ -9,6 +9,13 @@ package com.acme.doktoric
  */
 object main {
   def main(args: Array[String]) {
-    println("First Scala app!")
+    val msg = "Hello world"
+    println(msg)
+    println(max(3,6))
+  }
+
+  def max(x: Int, y: Int): Int = {
+    if (x > y) x
+    else y
   }
 }
