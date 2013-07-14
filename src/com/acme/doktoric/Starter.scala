@@ -1,6 +1,6 @@
 package com.acme.doktoric
 
-import classes.{LittleDog, BigDog}
+import classes.{SpecificDog, LittleDog, BigDog}
 import iteration.CollectionSample
 
 /**
@@ -20,6 +20,8 @@ object main {
     dog.sayWuf()
     val littleDog=new LittleDog()
     littleDog.sayWuf()
+    val specificDog=new SpecificDog()
+    specificDog.sayWuf()
   }
 
 
