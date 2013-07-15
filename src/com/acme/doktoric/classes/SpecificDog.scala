@@ -9,4 +9,6 @@ package com.acme.doktoric.classes
  */
 class SpecificDog extends AbstractDog {
   val message = "dsfsdfd"
+
+  override def toString="dog: "+message
 }

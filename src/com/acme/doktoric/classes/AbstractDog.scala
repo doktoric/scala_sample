@@ -10,5 +10,9 @@ package com.acme.doktoric.classes
 abstract class AbstractDog {
   val message: String
   def sayWuf() = println(message)
+  override def toString="Adog: "+message
 
+  def +(number: Int):Unit={
+    println("the dogs were increased: "+number+" count and say:"+message)
+  }
 }

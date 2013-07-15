@@ -20,8 +20,11 @@ object main {
     dog.sayWuf()
     val littleDog=new LittleDog()
     littleDog.sayWuf()
+    println(littleDog)
+    littleDog.+(3)
     val specificDog=new SpecificDog()
     specificDog.sayWuf()
+    println(specificDog)
   }
 
 
