@@ -25,6 +25,17 @@ object main {
     val specificDog=new SpecificDog()
     specificDog.sayWuf()
     println(specificDog)
+
+    val friendName="Robert"
+
+    val friend= friendName match{
+      case "Mat" => "pepper"
+      case "Robert" => "salsa"
+      case _ => "huh?"
+    }
+
+    println(friend)
+
   }
 
 
