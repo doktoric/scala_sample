@@ -2,6 +2,8 @@ package com.acme.doktoric
 
 import classes.{SpecificDog, LittleDog, BigDog}
 import iteration.CollectionSample
+import matcher.MatcherSample
+import special.ClassFunctionSample
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,15 +28,8 @@ object main {
     specificDog.sayWuf()
     println(specificDog)
 
-    val friendName="Robert"
-
-    val friend= friendName match{
-      case "Mat" => "pepper"
-      case "Robert" => "salsa"
-      case _ => "huh?"
-    }
-
-    println(friend)
+    val matcherSample=new MatcherSample()
+    println(new ClassFunctionSample().increase(10))
 
   }
 
