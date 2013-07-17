@@ -29,7 +29,10 @@ object main {
     println(specificDog)
 
     val matcherSample=new MatcherSample()
-    println(new ClassFunctionSample().increase(10))
+    val classFunctionSample=new ClassFunctionSample()
+    println(classFunctionSample.increase(10))
+    println(classFunctionSample.writeNumbersToConsole(List(1,2,3)))
+    println(classFunctionSample.increaseWithPrint(1))
 
   }
 

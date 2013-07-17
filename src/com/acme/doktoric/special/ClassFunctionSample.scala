@@ -9,4 +9,11 @@ package com.acme.doktoric.special
  */
 class ClassFunctionSample {
   var increase = (x: Int) => x + 1
+  var writeNumbersToConsole=(x:List[Int])=>{
+    x.foreach(println _)
+  }
+  var increaseWithPrint = (x: Int) => {
+    println("Now we will increase the: " + x)
+    println("After the increase: " + (x + 1))
+  }
 }
