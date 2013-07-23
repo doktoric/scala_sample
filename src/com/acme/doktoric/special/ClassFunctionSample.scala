@@ -16,4 +16,7 @@ class ClassFunctionSample {
     println("Now we will increase the: " + x)
     println("After the increase: " + (x + 1))
   }
+
+  def curriedSum(x: Int)(y: Int) = x + y
+
 }
